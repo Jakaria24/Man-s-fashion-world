@@ -1,0 +1,108 @@
+/* font-family  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    background-color: #1f2438;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav-bar section start  */
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #35105080;
+    border-bottom: 1px solid white;
+}
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* nav-bar section end  */
+
+/* banner section start  */
+.banner{
+    width: 90%;
+}
+.banner-background{
+    background-color: #986253;
+    height: 500px;
+    width: 89%;
+    margin: 70px 100px 180px 100px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.banner-content {
+    padding-right: 40px;
+    margin-top: 120px;
+}
+.banner-content h1{
+    color: white;
+    font-size: 30px;
+}
+.banner-content img{
+     width: 305px;
+     height: 348px;
+}
+.banner-image img{
+    width: 580px;
+    height: 580px;
+    margin-top: 60px;
+}
+
+/* banner section end */
+
+/* fashion style start  */
+
+.fashion-style{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.fashion-style-list{
+    width: 300px;
+}
+.fashion-style-list h1{
+    color: white;
+    margin-top: 0;
+    font-size: 30px;
+}
+.fashion-style-list ol li{
+    color: white;
+}
+.fashion-style-list img{
+    width: 250px;
+    height: 270px;
+}
+.fashion-style-list p{
+    text-align: justify;
+    color: white;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+/* fashion style end  */
+
+ /* fashion describe start   */
+
+.fashion-describe{
+    width: 63%;
+    text-align: center;
+    border: 2px solid #986253;
+    padding: 40px;
+}
+.fashion-describe h1{
+ color: white;
+}
+.fashion-describe p{
+    color: white;
+}
+
+ /* fashion describe end   */
