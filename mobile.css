@@ -56,6 +56,8 @@
 
      .fashion-style{
          flex-direction: column;
+         justify-content: center;
+         align-items: center;
      }
      /* fashion style end  */
 
@@ -71,3 +73,4 @@
       /* fashion describe end   */
 
 }
+

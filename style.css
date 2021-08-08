@@ -57,7 +57,9 @@ body{
 }
 
 /* banner section end */
-
+   .container{
+       padding-left: 0;
+   }
 /* fashion style start  */
 
 .fashion-style{
@@ -91,6 +93,12 @@ body{
 /* fashion style end  */
 
  /* fashion describe start   */
+ .describe-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+ }
 
 .fashion-describe{
     width: 63%;
@@ -106,3 +114,69 @@ body{
 }
 
  /* fashion describe end   */
+ .fashion-details{
+     margin-bottom: 100px;
+     display: flex;
+ }
+ .fashion-details-model{
+     width: 60%;
+ }
+ .fashion-details-background{
+     background-color:#986253 ;
+     width: 500px;
+     height: 700px;
+
+ }
+ .fashion-details-image{
+     position: absolute;
+     top: 1650px;
+     left: 150px;
+ }
+ .fashion-details-image img{
+     width: 45%;
+     height: 45%;
+ }
+.fashion-details-imrove{
+    background-color: white;
+    width: 35%;
+    padding: 30px 30px;
+}
+.fashion-details-imrove{
+    left:100px;
+    top: 1900px;
+    position: absolute;
+}
+.fashion-improve-content{
+   border: 2px solid #986253 ;
+   padding: 60px 20px;
+   text-align: center;
+}
+.fashion-improve-content h1{
+    font-size: 30px;
+   color: #986253;
+}
+.fashion-improve-content p{
+    margin-bottom: 50px;
+}
+.fashion-improve-content a{
+    color: #986253;
+    text-decoration: none;
+    border: 1px solid #986253;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+.fashion-details-article{
+    width: 30%;
+}
+.fashion-details-article h1{
+    color: white;
+    font-size: 40px;
+}
+.fashion-details-article p{
+    color: white;
+    line-height: 30px;
+}
+.fashion-details-article ol li{
+    color: white;
+    line-height: 30px;
+}
